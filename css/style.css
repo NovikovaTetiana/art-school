@@ -1,0 +1,29 @@
+.container {
+    width: 1200;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+.item {
+    width: calc((100% - 90px) / 4);
+}
