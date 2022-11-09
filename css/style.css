@@ -2,7 +2,6 @@
     width: 1200;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 
@@ -12,8 +11,7 @@ ul {
 }
 
 img {
-    display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -22,8 +20,43 @@ img {
     flex-wrap: wrap;
     gap: 30px;
     list-style: none;
+    padding: 0;
 }
 
 .item {
     width: calc((100% - 90px) / 4);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.cards {
+    padding: 100px 0 300px;
+    text-align: center;
+    background-color: rgb(35, 22, 72);
+    border: 2px solid black;
+}
+
+.heading {
+    color: #c5bbbb;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.text {
+    color: rgb(166, 220, 67);
+    font-size: 32px;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(230, 215, 55);
+    color: rgb(35, 22, 72);
 }
